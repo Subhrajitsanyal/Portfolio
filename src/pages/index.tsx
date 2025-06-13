@@ -269,7 +269,7 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              "I&apos;m an Aspiring full-stack developer proficient in{" "}
+              &quot;I&apos;m an Aspiring full-stack developer proficient in{" "}
               <Link
                 href="https://create.t3.gg/"
                 target="_blank"
@@ -277,7 +277,7 @@ export default function Home() {
               >
                 javaScript, MERN stack, and Next.js
               </Link>{" "}
-              since 2021. I&apos;ve worked on several real-world projects and recently completed an internship that enhanced my practical understanding of software development workflows. I enjoy building responsive, user-friendly applications and continuously explore new technologies to level up my skills."
+              since 2021. I&apos;ve worked on several real-world projects and recently completed an internship that enhanced my practical understanding of software development workflows. I enjoy building responsive, user-friendly applications and continuously explore new technologies to level up my skills.&quot;
             </h2>
             <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
