@@ -162,9 +162,20 @@ export default function Container(props: ContainerProps) {
             <CrossIcon data-hide={!isOpen} />
           </button>
         </div>
-        <Link href="/">
+        {/* <Link href="/">
           <span className="text-lg font-semibold">Subhrajit</span>
-        </Link>
+        </Link> */}
+        <a
+           href="assets/Subhrajit_Sanyal_Resume.pdf"
+            target="_blank"
+          rel="noopener noreferrer"
+          style={{ borderColor: 'hsl(217, 33%, 18%)' }}
+          className="text-sm font-medium text-white px-4 py-2 border rounded-md hover:bg-slate-800 transition-colors duration-300"
+          >
+          Resume
+          </a>
+
+
 
         {/* Desktop menu */}
         <ul className={styles["desktop-nav"]}>
